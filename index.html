@@ -5,86 +5,166 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/portfolio.css">
   <title>Porfolio</title>
 </head>
 <body>
-  <div class="container">
-    <header class="header">
-      <h1 class="headline">Rodrigo Imlach</h1>
-      <p class="sub-headline"><span class="highlight"><</span> Full Stack Developer <span class="highlight">/></span></p>
-    </header>
+ 
+  <header class="header">
+    <div class="header-container">
+      <div class="header-left">
+        <h1 class="headline">
+          Hi there,<br>I'm Rodrigo<br>
+          <span class="font-regular">
+            a <span class="highlight"><</span>full stack<span class="highlight"> /></span> <br>developer.
+          </span>
+        </h1>
+      </div> <!-- header-left -->
   
-    <div class="about">
-      <div class="about-wrapper">
-        <h5 class="about-title">Focus</h5>
-        <p class="about-info">Elixir, Phoenix, Postgres, Javascript, HTML, CSS, UX, UI Design, Interactive Design.</p>
-      </div>
-  
-      <div class="about-wrapper">
-        <h5 class="about-title">Past experience</h5>
-        <p class="about-info">Python, Ruby, Ruby on Rails.</p>
-      </div>
-    
-      <div class="about-wrapper">
-        <h5 class="about-title">I speak fluently</h5>
-        <p class="about-info">English, Spanish, Portuguese.</p>
-      </div>
-    </div> <!-- about -->
-  
-    <div class="portfolio">
-      <h3 class="portfolio-title">Work</h3>
-  
-      <div class="works">
-  
-        <div class="work">
-          <a href="/welcome_screen.html">
-            <figure class="work-figure">
-              <img class="work-img" src="images/root_en.jpg" alt="root" loading="lazy">
-            </figure>
-          </a>
-          <div class="work-info">
-            <a class="work-link" href="/welcome_screen.html">Welcome Screen</a>
-            <ul class="work-collection">
-              <li class="work-item">UI Design</li>
-              <li class="work-item">UX Design</li>
-            </ul>
-          </div>
-        </div> <!-- work -->
-  
-        <div class="work">
-          <a href="/notification_system.html">
-            <figure class="work-figure">
-              <img class="work-img" src="images/notifications.jpg" alt="notifications" loading="lazy">
-            </figure>
-          </a>
-          <div class="work-info">
-            <a class="work-link" href="/notification_system.html">App Notifications System</a>
-            <ul class="work-collection">
-              <li class="work-item">UI Design</li>
-              <li class="work-item">UX Design</li>
-            </ul>
-          </div>
-        </div> <!-- work -->
-  
-        <div class="work">
-          <a href="https://github.com/imlachR/sender">
-            <figure class="work-figure">
-              <img class="work-img" src="images/concurrency_parallelism.jpg" alt="concurrency image" loading="lazy">
-            </figure>
-          </a>
-          <div class="work-info">
-            <a class="work-link" href="https://github.com/imlachR/sender">Concurrency, Parallelism and BEAM</a>
-            <ul class="work-collection">
-              <li class="work-item">Elixir</li>
-            </ul>
-          </div>
-        </div> <!-- work -->
-  
-      </div> <!-- works -->
-    </div> <!-- portfolio -->
+      <div class="header-right">
+        <a class="github-link" href="https://github.com/imlachR">
+          <svg width="44px" height="50px" viewBox="0 0 44 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                <g id="github-logo" transform="translate(2.000000, 2.000000)" stroke="#0D112B" stroke-width="4">
+                    <path d="M10,45.4545455 C13.0124623,45.4545455 15.4545455,43.0124623 15.4545455,40 L15.4545455,29.0909091"></path>
+                    <path d="M30,45.4545455 C26.9875377,45.4545455 24.5454545,43.0124623 24.5454545,40 L24.5454545,29.0909091"></path>
+                    <path d="M25.4545455,29.0909091 L29.0909091,29.0909091 C32.1033714,29.0909091 34.5454545,31.5329923 34.5454545,34.5454545 L34.5454545,36.3636364 C34.5454545,39.3760986 36.9875377,41.8181818 40,41.8181818"></path>
+                    <path d="M14.5454545,29.0909091 L10.9090909,29.0909091 C7.89662864,29.0909091 5.45454545,31.5329923 5.45454545,34.5454545 L5.45454545,36.3636364 C5.45454545,39.3760986 3.01246227,41.8181818 0,41.8181818"></path>
+                    <path d="M5.57083182,10.1599477 C4.2830418,6.82796346 4.57457634,3.09189044 6.36363636,5.16758411e-15 C10.3973192,-0.00229905759 14.153154,2.05443034 16.3237932,5.45427273 L16.3237932,5.45454545 L23.6762045,5.45454545 L23.6762045,5.45427273 C25.8468441,2.05442966 29.60268,-0.00229983408 33.6363636,3.5527141e-15 C35.4254237,3.09189044 35.7169582,6.82796346 34.4291682,10.1599477 C35.6921319,11.9818965 36.36719,14.1467552 36.3636364,16.3636364 L36.3636364,18.1818182 C36.3636364,24.2067427 31.47947,29.0909091 25.4545455,29.0909091 L14.5454545,29.0909091 C8.52053,29.0909091 3.63636364,24.2067427 3.63636364,18.1818182 L3.63636364,16.3636364 C3.63280617,14.1467528 4.30786194,11.9818908 5.570825,10.1599386 L5.57083182,10.1599477 Z"></path>
+                </g>
+            </g>
+          </svg>
+        </a>
+      </div> <!-- header-right -->
 
-  </div> <!-- container -->
+      <div class="about">
+        <div class="about-wrapper">
+          <h5 class="about-title">Focusing on</h5>
+          <p class="about-info">Elixir, Phoenix, Postgres, Javascript, HTML, CSS, UX, UI Design, Interactive Design.</p>
+        </div>
+        <div class="about-wrapper">
+          <h5 class="about-title">Past experience</h5>
+          <p class="about-info">Python, Ruby, Ruby on Rails.</p>
+        </div>
+      </div> <!-- about -->
+
+    </div> <!-- container -->
+  </header>
+
+  <div class="portfolio">
+
+    <div class="portfolio-container">
+      <h3 class="portfolio-title">Work</h3>
+
+      <section class="m-cards">
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/welcome.png" alt="Welcome!">
+            <figcaption class="m-caption">Welcome!</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/onboard.png" alt="Onboarding">
+            <figcaption class="m-caption">Onboarding</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/activities.png" alt="Activities">
+            <figcaption class="m-caption">Activities</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+      </section> <!-- m-cards -->
+
+      <section class="m-cards">
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/conversational-ui.png" alt="Conversational UI!">
+            <figcaption class="m-caption">Conversational UI</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/menu.png" alt="Menu">
+            <figcaption class="m-caption">Menu</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/quiz.png" alt="Quiz">
+            <figcaption class="m-caption">Quiz</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+      </section> <!-- m-cards -->
+
+      <section class="m-cards">
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/landing.png" alt="Classroom Landing">
+            <figcaption class="m-caption">Classroom Landing</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/dashboard.png" alt="Dashboard">
+            <figcaption class="m-caption">Dashboard</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+
+        <div class="m-card">
+          <figure class="m-figure">
+            <img class="m-img" src="/images/notifications.png" alt="Notifications">
+            <figcaption class="m-caption">Notifications</figcaption>
+          </figure>
+        </div> <!-- m-card -->
+      </section> <!-- m-cards -->
+
+      <section class="s-cards">
+        <a class="s-card s-card-black-bg" href="/binaria.html">
+          <div class="s-card-layer-0">
+            <video class="s-card-video" src="https://d1tuinwf0uju86.cloudfront.net/home_bg.mp4"
+                   onloadedmetadata="this.muted = true" autoplay loop muted
+                   poster="https://d1tuinwf0uju86.cloudfront.net/home_bg_poster.png">
+            </video>
+          </div> <!-- s-card-layer-0 -->
+          <div class="s-card-layer-1">
+            <h4 class="s-card-title">Binaria Landing Site</h4>
+          </div> <!-- s-card-layer-1 -->
+        </a> <!-- s-card -->
+      </section> <!-- s-cards -->
+
+      <section class="s-cards">
+        <a class="s-card" href="#">
+          <div class="s-card-layer-0">
+            <video class="s-card-video" src="/videos/dance-desktop.mp4"
+                   onloadedmetadata="this.muted = true" autoplay loop muted
+                   poster="https://d1tuinwf0uju86.cloudfront.net/home_bg_poster.png">
+            </video>
+          </div> <!-- s-card-layer-0 -->
+          <div class="s-card-layer-1">
+            <h4 class="s-card-title">Music Recommendation Model<br> with Scikit Learn</h4>
+          </div> <!-- s-card-layer-1 -->
+        </a> <!-- s-card -->
+      </section> <!-- s-cards -->
+
+
+      <footer class="footer">
+        <p class="footer-text">footer goes here.</p>
+        <a class="footer-link" href="mailto:rodrimlach@gmail.com?Subject=info%20services">Get in touch</a>
+      </footer>
+
+    </div> <!-- portfolio-container -->
+
+  </div> <!-- portfolio -->
+
+  
 
 </body>
 </html>

@@ -1,0 +1,144 @@
+:root {
+  --font-primary: 'Inter', sans-serif;
+
+  --dark: hsla(232, 54%, 11%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --grey: hsla(232, 54%, 11%, 0.6);
+  --carbon: hsl(228, 5%, 18%, 1);
+
+  --semi-bold-600: 600;
+  --regular-400: 400;
+  --bold-700: 700;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+
+  background: rgba(44, 45, 49, 0.08);
+
+  font-family: var(--font-primary);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.font-regular {
+  font-weight: var(--regular-400);
+}
+
+/*
+
+  HEADER
+
+*/
+
+.header {
+  width: 100%;
+  background: var(--white);
+}
+
+.header-container {
+  max-width: 1194px;
+  margin: 0 auto;
+
+ 
+  padding-top: 8rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-container {
+    padding-top: 17rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header-container {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+}
+
+.headline {
+  color: var(--dark);
+  font-size: 3.7rem;
+  font-weight: var(--semi-bold-600);
+  line-height: 4.8rem;
+  letter-spacing: -0.62px;
+}
+
+@media only screen and (min-width: 768px) {
+  .headline {
+    font-size: 6.7rem;
+    line-height: 8.3rem;
+    letter-spacing: -0.02;
+  }
+}
+
+.highlight {
+  color: hsla(340, 94%, 65%, 1);
+}
+
+.github-link {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .github-link {
+    display: block;
+    margin-top: 2.4rem;
+  }
+}
+
+.about {
+  padding-top: 6.4rem;
+  padding-bottom: 5.6rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2.4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    padding-top: 9.7rem;
+    padding-bottom: 12rem;
+  }
+}
+
+.about-title {
+  color: var(--dark);
+  font-size: 1.6rem;
+  font-weight: var(--semi-bold-600);
+}
+
+.about-info {
+  color: var(--grey);
+  font-size: 1.6rem;
+  font-weight: var(--regular-400);
+  line-height: 2.4rem;
+  letter-spacing: -0.02px;
+}
+
+
