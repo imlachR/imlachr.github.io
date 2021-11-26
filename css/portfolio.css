@@ -26,12 +26,19 @@
 
 .portfolio-title {
   margin-top: 5.6rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 6.4rem;
 
   color: var(--dark);
-  font-size: 2rem;
+  font-size: 2.589rem;
   font-weight: var(--semi-bold-600);
   letter-spacing: -0.02px;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio-title {
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+  }
 }
 
 .footer {

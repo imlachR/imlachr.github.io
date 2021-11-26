@@ -4,23 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/typography.css">
   <link rel="stylesheet" href="/css/portfolio.css">
-  <link rel="stylesheet" href="/css/project.css">
-  <link rel="stylesheet" href="/css/t-cards.css">
-  <link rel="stylesheet" href="/css/p-cards.css">
-  <link rel="stylesheet" href="/css/s-cards.css">
-  <link rel="stylesheet" href="/css/v-cards.css">
+  <link rel="stylesheet" href="/css/section.css">
   <title>Porfolio</title>
 </head>
 <body>
  
   <header class="header">
-    <div class="header-container">
+    <div class="header-container">  
       <div class="header-left">
         <h1 class="headline">
-          Hi there,<br>I'm Rodrigo<br>
+          Hi there,<br>I'm Rodrigo<br> 
           <span class="font-regular">
             a <span class="highlight"><</span>full stack<span class="highlight"> /></span> <br>developer.
           </span>
@@ -45,12 +44,12 @@
 
       <div class="about">
         <div class="about-wrapper">
-          <h5 class="about-title">Focusing on</h5>
-          <p class="about-info">Elixir, Phoenix, LiveView, Postgres, Javascript, React, Next.js, HTML, CSS, UX, UI Design, Interactive Design.</p>
+          <h5 class="regular-title">Focusing on</h5>
+          <p class="regular">Elixir, Phoenix, LiveView, Postgres, SQL, Javascript, React, Next.js, HTML, CSS, UX, UI Design, Motion Design.</p>
         </div>
         <div class="about-wrapper">
-          <h5 class="about-title">Past experience</h5>
-          <p class="about-info">Python, Ruby, Ruby on Rails.</p>
+          <h5 class="regular-title">Past experience</h5>
+          <p class="regular">Python, Ruby, Ruby on Rails.</p>
         </div>
       </div> <!-- about -->
 
@@ -62,186 +61,205 @@
     <div class="portfolio-container">
       <h3 class="portfolio-title">Work</h3>
 
-      <section class="t-cards">
-        <div class="t-card">
-          <figure class="t-card-container">
-            <img class="t-card-img" src="/images/desktop_signup.png" loading="lazy" alt="Desktop Sign up">
-            <legend class="t-card-legend">Desktop Sign up</legend>
-          </figure> <!-- t-card-layer-0 -->
-        </div> <!-- t-card -->
-      </section> <!-- t-cards -->
+      <div class="collection">
 
-      <section class="t-cards">
-        <div class="t-card">
-          <figure class="t-card-container">
-            <img class="t-card-img" src="/images/desktop_login.png" loading="lazy" alt="Desktop Sign up">
-            <legend class="t-card-legend">Desktop Sign in</legend>
-          </figure> <!-- t-card-layer-0 -->
-        </div> <!-- t-card -->
-      </section> <!-- t-cards -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Air Pods Max</h4>
+            <p class="regular">Landing page with parallax effect</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-ratio">
+              <video class="section-card-video" src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/air_pods_max.mp4"
+                     loading="lazy" onloadedmetadata="this.muted = true" autoplay loop muted
+                     poster="/images/dance-desktop-poster.png">
+              </video>
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-      <section class="s-cards">
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_show.png" loading="lazy" alt="Product Page">
-            <figcaption class="s-caption">Product Page</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Nat Geo</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-ratio">
+              <video class="section-card-video" src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/nat_geo.mp4"
+                     loading="lazy" onloadedmetadata="this.muted = true" autoplay loop muted
+                     poster="/images/dance-desktop-poster.png">
+              </video>
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/zoom.png" loading="lazy" alt="Zoom">
-            <figcaption class="s-caption">Zoom</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Photo </h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-ratio">
+              <video class="section-card-video" src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/photo_app.mp4"
+                     loading="lazy" onloadedmetadata="this.muted = true" autoplay loop muted
+                     poster="/images/dance-desktop-poster.png">
+              </video>
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_show_options.png" loading="lazy" alt="Product Page with Optionals">
-            <figcaption class="s-caption">Product Page with Options</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-      </section> <!-- s-cards -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/desktop_signup.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-      <section class="s-cards">
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_sizes.png" loading="lazy" alt="Product Sizes">
-            <figcaption class="s-caption">Product Size</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/desktop_login.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_show_optionals.png" loading="lazy" alt="Product Page Optionals">
-            <figcaption class="s-caption">Product Optionals</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-images">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/landing.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/notifications.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/dashboard.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_page_optionals.png" loading="lazy" alt="Product Page Optionals">
-            <figcaption class="s-caption">Product Optionals</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-      </section> <!-- s-cards -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-images">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/welcome.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/onboard.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/activities.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-      <section class="s-cards">
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_optionals.png" loading="lazy" alt="Product Optionals">
-            <figcaption class="s-caption">Product Optionals</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-images">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/conversational-ui.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/quiz.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/menu.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/login_mobile.png" loading="lazy" alt="Login">
-            <figcaption class="s-caption">Login</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-images">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_show.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/zoom.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_show_options.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/product_show_prev.png" loading="lazy" alt="Product Page">
-            <figcaption class="s-caption">Product Page</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-      </section> <!-- s-cards -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-images">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_sizes.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_page_optionals.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_show_optionals.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-      <section class="s-cards">
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/welcome.png" loading="lazy" alt="Welcome!">
-            <figcaption class="s-caption">Welcome!</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Section Title</h4>
+            <p class="regular">This is a subtitle</p>
+          </div> <!-- section-intro -->
+  
+          <a href="#" class="section-card">
+            <div class="section-card-container-images">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_optionals.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/login_mobile.png" alt="" class="section-card-img">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/product_show_prev.png" alt="" class="section-card-img">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/onboard.png" loading="lazy" alt="Onboarding">
-            <figcaption class="s-caption">Onboarding</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Hedgehog</h4>
+            <p class="regular">Elixir & OTP: Cryptocurrency Trading Bot</p>
+          </div> <!-- section-intro -->
+  
+          <a href="https://github.com/imlachR/hedgehog" class="section-card">
+            <div class="section-card-container">
+              <img src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/bull-market.jpg" alt="" class="section-card-img-full">
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/activities.png" loading="lazy" alt="Activities">
-            <figcaption class="s-caption">Activities</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-      </section> <!-- s-cards -->
+        <section class="section">
+          <div class="section-intro">
+            <h4 class="regular-title">Rockr</h4>
+            <p class="regular">Music Recommendation Model with Scikit Learn</p>
+          </div> <!-- section-intro -->
+  
+          <a href="https://github.com/imlachR/rockr" class="section-card">
+            <div class="section-card-container-ratio">
+              <video class="section-card-video" src="https://d1j7twnp44fgl4.cloudfront.net/portfolio/dance-desktop.mp4"
+                     loading="lazy" onloadedmetadata="this.muted = true" autoplay loop muted
+                     poster="https://d1j7twnp44fgl4.cloudfront.net/portfolio/dance-desktop-poster.jpg">
+              </video>
+            </div> 
+          </a> <!-- section-card -->
+        </section> <!-- section -->
 
-      <section class="s-cards">
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/conversational-ui.png" loading="lazy" alt="Conversational UI!">
-            <figcaption class="s-caption">Conversational UI</figcaption>
-          </figure>
-        </div> <!-- s-card -->
+      </div> <!-- collection -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/menu.png" loading="lazy" alt="Menu">
-            <figcaption class="s-caption">Menu</figcaption>
-          </figure>
-        </div> <!-- s-card -->
 
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/quiz.png" loading="lazy" alt="Quiz">
-            <figcaption class="s-caption">Quiz</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-      </section> <!-- s-cards -->
-
-      <section class="s-cards">
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/landing.png" loading="lazy" alt="Classroom Landing">
-            <figcaption class="s-caption">Classroom Landing</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/dashboard.png" loading="lazy" alt="Dashboard">
-            <figcaption class="s-caption">Dashboard</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-
-        <div class="s-card">
-          <figure class="s-figure">
-            <img class="s-img" src="/images/notifications.png" loading="lazy" alt="Notifications">
-            <figcaption class="s-caption">Notifications</figcaption>
-          </figure>
-        </div> <!-- s-card -->
-      </section> <!-- s-cards -->
-
-      <section class="p-cards">
-        <a class="p-card" href="https://github.com/imlachR/hedgehog">
-          <div class="p-card-layer-0">
-            <img class="p-card-img" src="/images/bull-market.webp" loading="lazy" alt="Bull market">
-          </div> <!-- p-card-layer-0 -->
-          <div class="p-card-layer-1">
-            <h4 class="p-card-title">Elixir & OTP: Cryptocurrency<br>Trading Bot</h4>
-          </div> <!-- p-card-layer-1 -->
-        </a> <!-- p-card -->
-      </section> <!-- p-cards -->
-
-      <section class="v-cards">
-        <a class="v-card" href="https://github.com/imlachR/rockr">
-          <div class="v-card-layer-0">
-            <video class="v-card-video" src="/videos/dance-desktop.mp4"
-                   loading="lazy" onloadedmetadata="this.muted = true" autoplay loop muted
-                   poster="/images/dance-desktop-poster.png">
-            </video>
-          </div> <!-- v-card-layer-0 -->
-          <div class="v-card-layer-1">
-            <h4 class="v-card-title">Music Recommendation Model<br> with Scikit Learn</h4>
-          </div> <!-- v-card-layer-1 -->
-        </a> <!-- v-card -->
-      </section> <!-- v-cards -->
+      
 
 
       <footer class="footer">
@@ -250,10 +268,7 @@
       </footer>
 
     </div> <!-- portfolio-container -->
-
   </div> <!-- portfolio -->
-
-  
 
 </body>
 </html>
