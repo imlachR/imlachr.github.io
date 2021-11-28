@@ -26,7 +26,7 @@
 .section-card {
   background: var(--white);
   border-radius: 0.8rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .section-card-container {
@@ -41,7 +41,10 @@
 }
 
 .section-card-container-images {
-  display: flex;
+  width: 100%;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .section-card-img {
