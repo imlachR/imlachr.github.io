@@ -76,7 +76,7 @@
             class="item-img" 
             id="swiss-01" 
             loading="lazy"
-            src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/swiss-01.svg" 
+            src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/swiss-03.svg" 
             alt="Swiss Design 01">
         </figure>
         <figure class="image-container">
