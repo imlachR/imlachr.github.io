@@ -156,6 +156,7 @@
     </div> <!-- container -->
   </div> <!-- work-wide -->
 
+  
   <div class="container">
     <div class="work mt-12">
       <div class="item-legend">
@@ -174,7 +175,7 @@
             class="item-img" 
             id="legacy-01"
             loading="lazy" 
-            src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/legacy-bef-01.svg" 
+            src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/new-legacy-01.svg" 
             alt="Legacy Design 01">
         </figure>
         <figure class="image-container">
@@ -185,12 +186,13 @@
             class="item-img" 
             id="legacy-02"
             loading="lazy" 
-            src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/legacy-bef-02.svg" 
+            src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/new-legacy-02.svg" 
             alt="Legacy Design 02">
         </figure>
       </div> <!-- item-collection -->
     </div> <!-- work -->
   </div>  <!-- container -->
+  
 
 </div>  <!-- work-collection -->`;var i=document.createElement("div");i.className="featured-work";i.innerHTML=o;document.body.appendChild(i);var g=i.querySelectorAll(".item-img");g.forEach(e=>{let t=e.previousElementSibling;e.complete?t.style.opacity="0":(e.addEventListener("load",()=>{t.style.opacity="0"}),e.addEventListener("error",()=>{t.innerHTML="Error loading image"}))});var s=`<div class="container">
   <div class="footer-ctn">
