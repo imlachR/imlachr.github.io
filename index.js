@@ -1,4 +1,4 @@
-(()=>{var n=`<div id="top" class="header-ctn">
+(()=>{var s=`<div id="top" class="header-ctn">
   
   <nav class="nav">   
     <figure class="profile-img-ctn-medium">
@@ -39,7 +39,7 @@
     </div> <!-- header-intro-greetings -->
     <div class="header-intro-skills">
       <h4 class="text-subsection">
-        A <span class="text-highlight">full-stack</span> developer, focusing on  
+        A <span class="text-gradient-orangered">full-stack</span> developer, focusing on  
         <span class="text-grey">
           Elixir, Phoenix, LiveView, OTP, Postgres, Redis, SQL, Javascript, Docker, AWS, 
           CI/CD, HTML, CSS, TailwindCSS, UX, and UI Design.
@@ -52,7 +52,7 @@
     </div> <!-- header-intro-skills -->
   </div> <!-- header-intro -->
 
-</div> <!-- header-container -->`;var a=document.createElement("header");a.className="header";a.innerHTML=n;document.body.appendChild(a);var o=`<div class="container">
+</div> <!-- header-container -->`;var a=document.createElement("header");a.className="header";a.innerHTML=s;document.body.appendChild(a);var l=`<div class="container">
   <h2 class="text-section-title">Featured Work</h2>
 </div>
 
@@ -160,7 +160,7 @@
   <div class="container">
     <div class="work mt-12">
       <div class="item-legend">
-        <h5 class="text-subsection">Simplified and Mobile-Optimized</h5>
+        <h5 class="text-subsection">Simplified and <br>Mobile-Optimized</h5>
         <p class="text-regular text-grey">
           A streamlined, multi-step process that guides new users through key onboarding tasks, ensuring an effortless 
           transition into the Legacy team. Mobile-friendly for leaders on the go.
@@ -194,7 +194,71 @@
   </div>  <!-- container -->
   
 
-</div>  <!-- work-collection -->`;var i=document.createElement("div");i.className="featured-work";i.innerHTML=o;document.body.appendChild(i);var g=i.querySelectorAll(".item-img");g.forEach(e=>{let t=e.previousElementSibling;e.complete?t.style.opacity="0":(e.addEventListener("load",()=>{t.style.opacity="0"}),e.addEventListener("error",()=>{t.innerHTML="Error loading image"}))});var s=`<div class="container">
+</div>  <!-- work-collection -->`;var i=document.createElement("div");i.className="featured-work";i.innerHTML=l;document.body.appendChild(i);var h=i.querySelectorAll(".item-img");h.forEach(e=>{let t=e.previousElementSibling;e.complete?t.style.opacity="0":(e.addEventListener("load",()=>{t.style.opacity="0"}),e.addEventListener("error",()=>{t.innerHTML="Error loading image"}))});var d=`<div class="container">
+  <h2 class="text-section-title">About Me</h2>
+
+  <div class="about-profile">
+    <figure class="profile-img-ctn-medium">
+      <img 
+        id="profile-image" 
+        class="profile-img"
+        loading="lazy"
+        src="https://cf-simple-s3-origin-trivium-static-873738670572.s3.amazonaws.com/portfolio/profile-image.jpg" 
+        alt="Profile Image">
+      <div class="online-ping">
+          <div class="blob"></div>
+      </div>
+    </figure>
+    <div class="about-profile-text"> 
+      <h5 class="text-subsection">Rodrigo</h5>
+      <h5 class="text-regular text-grey">Full-stack Developer</h5>
+    </div>  
+  </div> <!-- about-profile -->
+  
+  <div class="about-bio">
+    <h3 class="text-subsection">
+      Driven by a passion for turning ideas into impactful digital solutions, <br class="about-break">
+      I\u2019ve spent the last decade building scalable web applications and <br class="about-break">
+      SaaS platforms. From modernizing legacy systems to crafting efficient, 
+      user-centric solutions, I focus on delivering high-performance results 
+      that stand the test of time.
+    </h3>
+  </div> <!-- about-bio -->
+  
+</div> <!-- container -->`;var n=document.createElement("div");n.className="about";n.innerHTML=d;document.body.appendChild(n);var c=`<div class="container">
+  <h2 class="pr-text-subsection semi-bold-600">Code Samples</h2>
+  <div class="gist-list">
+    <div class="gist-item">
+      <div class="gist-description">
+        <a 
+          class="pr-text-subsection link-no-decoration text-gradient-blue" 
+          href="https://gist.github.com/imlachR/d63497e866dbdc9f24f16f3b6738b44a">
+            Efficient File Upload Management
+        </a>
+        <p class="text-regular text-grey">
+          This gist provides a snippet of a Phoenix LiveView component for managing file uploads efficiently. 
+          It highlights key functionalities and integrations. For more information or to discuss the complete 
+          solution, please feel free to get in touch.
+        </p>
+      </div>
+    </div> <!-- gists-item -->
+    <div class="gist-item">
+      <div class="gist-description">
+        <a 
+          class="pr-text-subsection link-no-decoration text-gradient-blue" 
+          href="https://gist.github.com/imlachR/18a14e308e7a40f8363af589067d28e2">
+            Interactive Task Status
+        </a>
+        <p class="text-regular text-grey">
+          A Phoenix LiveView component for managing task statuses. Features dynamic status display, 
+          keyboard and mouse interactions, search functionality, and real-time updates, ensuring 
+          seamless task management.
+        </p>
+      </div>
+    </div> <!-- gists-item -->
+  </div> <!-- gists-list -->
+</div> <!-- container -->
+`;var r=document.createElement("section");r.className="gists";r.innerHTML=c;document.body.appendChild(r);var g=`<div class="container">
   <div class="footer-ctn">
     <ul class="footer-links">
       <li>
@@ -216,11 +280,11 @@
       <span class="text-regular text-dark">Back to Top</span>
       <figure class="contact-link">
         <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0.75 7.75L7.25 1.25L13.75 7.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M0.75 7.75L7.25 1.25L13.75 7.75" stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>          
       </figure>
     </a>
   </div>
 </div>
-`;var r=document.createElement("footer");r.className="footer";r.innerHTML=s;document.body.appendChild(r);})();
+`;var o=document.createElement("footer");o.className="footer";o.innerHTML=g;document.body.appendChild(o);})();
 //# sourceMappingURL=index.js.map
