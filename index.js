@@ -1,4 +1,4 @@
-(()=>{var s=`<div id="top" class="header-ctn">
+(()=>{var o=`<div id="top" class="header-ctn">
   
   <nav class="nav">   
     <figure class="profile-img-ctn-medium">
@@ -52,7 +52,7 @@
     </div> <!-- header-intro-skills -->
   </div> <!-- header-intro -->
 
-</div> <!-- header-container -->`;var a=document.createElement("header");a.className="header";a.innerHTML=s;document.body.appendChild(a);var l=`<div class="container">
+</div> <!-- header-container -->`;var a=document.createElement("header");a.className="header";a.innerHTML=o;document.body.appendChild(a);var l=`<div class="container">
   <h2 class="text-section-title">Featured Work</h2>
 </div>
 
@@ -256,6 +256,20 @@
         </p>
       </div>
     </div> <!-- gists-item -->
+    <div class="gist-item">
+      <div class="gist-description">
+        <a 
+          class="pr-text-subsection link-no-decoration text-gradient-blue" 
+          href="https://gist.github.com/imlachR/e1303506aa551edc9bbf1cdf6454b17d">
+          Efficient Task Pagination for Nested Employee Data
+        </a>
+        <p class="text-regular text-grey">
+          This Elixir module leverages CTEs and inner lateral joins to dynamically retrieve and 
+          paginate tasks for nested employee records, streamlining complex queries while effectively 
+          managing filtering and pagination.
+        </p>
+      </div>
+    </div> <!-- gists-item -->
   </div> <!-- gists-list -->
 </div> <!-- container -->
 `;var r=document.createElement("section");r.className="gists";r.innerHTML=c;document.body.appendChild(r);var g=`<div class="container">
@@ -286,5 +300,5 @@
     </a>
   </div>
 </div>
-`;var o=document.createElement("footer");o.className="footer";o.innerHTML=g;document.body.appendChild(o);})();
+`;var s=document.createElement("footer");s.className="footer";s.innerHTML=g;document.body.appendChild(s);})();
 //# sourceMappingURL=index.js.map
